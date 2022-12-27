@@ -1,0 +1,35 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #191920;
+  color: #f9f9f9;;
+  font-family: avenir-roman, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: #e4edf0;
+  text-decoration: none;
+}
+
+@media screen and (min-width:1080px){
+  body{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:480px) and (min-width:720px){
+  body{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:720px){
+  body{
+    font-size: 12px;
+  }
+}
